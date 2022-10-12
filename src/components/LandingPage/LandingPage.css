@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800&display=swap');
+
+*{margin:0; padding:0; box-sizing:border-box; font-family: 'Poppins', sans-serif;text-decoration: none;}
+
+.BgImage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/background.jpg");
+    background-size: "cover";
+    background-repeat:no-repeat; 
+
+}
+
+.TagLine{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 3.5rem;
+    /* background-color: rgba(0,0,0,0.5); */
+    width: 30%;
+    margin-left: 2%;
+    padding-top: 2%;
+    font-weight: 500;
+}
+
+.Container_1{
+    height: 20vh;
+    width: 20%;
+    /* background-color: #fff; */
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+    text-align: center;
+}
+
+
+.Go{
+    font-weight: bold;
+    width:100%;
+  color: #f9f9f9;
+  background-color: #8000ff;
+  padding: 20px 40px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+
+.Go:hover {
+    background-color: #feb301;
+    transform: scale(1.12);
+    color: #2d0149;
+    box-shadow: 5px 5px 15px #6b6b6b;
+  }
+
+  @media screen and (max-width: 768px) {
+    .TagLine{
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+    .Container_1{
+        width: 80%;
+        margin-left: 10%;
+        height: 20vh
+    }
+    .Go{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+  }
